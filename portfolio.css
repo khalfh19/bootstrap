@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ========= Navbar ========= */
+
+.navbar .nav-brand{
+    font-family: 'Lemonada', cursive;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ========= Akhir ========= */
+
+/* ========= Jumbotron ========= */
+
+.jumbotron{
+    background-image: url(https://dummyimage.com/800x400/000/fff.png);
+    background-size: cover;
+}
+
+.display-4{
+    color: white;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+}
+
+.lead{
+    color: gray;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-size: 15px;
+}
+
+/* ========= End ========= */
+
+
+/* ========= Informtion ========= */
+
+
+.Information h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.Information p{
+    color: black;
+    font-size: 15px;
+    padding-top: 5px;
+    justify-content: left;
+    font-family: 'Rubik', sans-serif;
+}
+
+.skill{
+    margin-top: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.progress{
+    margin-top: 20px;
+    border: 1px solid black;
+    font-family: 'Sriracha', cursive;
+}
+
+.judul{
+    margin-top: 25px;
+}
+
+.Project{
+    margin-top: 100px;
+}
+
+.Project ul li{
+    display: block;
+}
+
+.Project .btn{
+    margin-top: 10px;
+}
+/* ========= End ========= */
+
+
+/* ========== Portfolio ========== */
+
+.Portfolio{
+    margin-top: 100px;
+}
+
+.Portfolio h4{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.card{
+    margin-top: 30px;
+    position: relative;
+}
+
+.image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.card:hover .image{
+    opacity: .2;
+}
+
+
+/* ========== End ========== */
+
+
+/* ========= Footer ========= */
+
+.footer{
+    background-color: darkgrey;
+    margin-top: 70px;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.footer h4{
+    color: black;
+    font-family: 'Lemon', cursive;
+    margin-bottom: 20px;
+}
+
+.footer ul li{
+    display: block;
+    margin-top: 10px;
+}
+
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* ========= End ========= */
+
+/* ========= Copy ========= */
+
+.Copy{
+    margin-top: 20px;
+}
+
+.Copy span{
+    color: blueviolet;
+}
+
+
+/* ========= End ========= */
+
+
+/* ========= DESKTOP ========= */
+
+@media (min-width: 992px){
+    .navbar .nav-link{
+        text-transform: uppercase;
+    }
+
+    .Information h4{
+        text-transform: uppercase;
+    }
+
+    .Project{
+        margin-top: 30px;
+    }
+
+
+    .display-4{
+        font-size: 30px;
+    }
+
+    .lead{
+        font-size: 20px;
+    }
+
+    .footer ul li a:hover{
+        background-color: grey;
+        transition: ease-in 0.2s;
+        border-radius: 5px;
+        margin: 5px 5px;
+    }
+}
